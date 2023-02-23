@@ -842,6 +842,12 @@
   font-size: 16px;
 }
 
+.video-2 {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media screen and (min-width: 1440px) {
   .div-block-3 {
     display: -webkit-box;
