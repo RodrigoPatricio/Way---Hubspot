@@ -215,6 +215,7 @@
   position: relative;
   height: 600px;
   padding-top: 100px;
+  padding-right: 80px;
   padding-left: 80px;
   background-image: url('../images/fundo-testa.png');
   background-position: 50% 50%;
@@ -223,7 +224,7 @@
 
 .image {
   position: absolute;
-  right: 100px;
+  right: 80px;
   bottom: 50px;
 }
 
@@ -252,8 +253,8 @@
 
 .heading-2 {
   width: 400px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-weight: 400;
   text-align: justify;
   text-transform: uppercase;
@@ -265,6 +266,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 420px;
+  height: 550px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -289,10 +291,10 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
@@ -817,6 +819,7 @@
 }
 
 .paragraph-4 {
+  margin-bottom: 20px;
   font-family: Montserrat, sans-serif;
   font-size: 16px;
   line-height: 22px;
@@ -849,6 +852,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .div-block {
+    padding-right: 80px;
+  }
+
   .div-block-3 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -897,6 +904,7 @@
   }
 
   .div-block {
+    padding-right: 140px;
     padding-left: 140px;
   }
 
@@ -1073,6 +1081,8 @@
 
   .div-block {
     height: 90vh;
+    padding-top: 140px;
+    padding-right: 60px;
     padding-left: 60px;
   }
 
@@ -1085,6 +1095,7 @@
 
   .div-block-3 {
     width: 100%;
+    height: auto;
   }
 
   .div-block-4 {
@@ -1167,6 +1178,7 @@
   }
 
   .image-2 {
+    display: none;
     width: 100%;
   }
 
@@ -1272,7 +1284,14 @@
 
   .div-block {
     height: 80vh;
+    padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .image {
+    left: 20px;
+    width: 120px;
+    height: auto;
   }
 
   .div-block-2 {
@@ -1389,18 +1408,19 @@
     width: 100%;
     margin-top: 20px;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 32px;
   }
 
   .div-block {
     height: 70vh;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-right: 10px;
     padding-left: 10px;
   }
 
   .image {
     left: 10px;
+    width: 100px;
   }
 
   .div-block-2 {
